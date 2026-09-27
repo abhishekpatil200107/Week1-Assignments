@@ -1,0 +1,10 @@
+/* Flexbox challenge: three cards in a row, stacked on small screens */
+.flex-row{display:flex;justify-content:center;align-items:stretch;gap:1.5rem;margin-top:1.5rem}
+.flex-card{display:flex;flex-direction:column;align-items:flex-start;flex:1 1 0;min-width:0;padding:1.5rem;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);box-shadow:var(--shadow);transition:transform .25s ease,box-shadow .25s ease}
+.flex-card:hover,.flex-card:focus-within{transform:translateY(-6px);box-shadow:var(--shadow-lift)}
+.flex-card p{flex:1}
+.badge{display:inline-grid;place-items:center;min-width:44px;height:44px;margin-bottom:1rem;padding:0 .6rem;border-radius:999px;background:var(--tint);color:var(--accent);font-weight:700}
+
+@media (max-width:700px){
+  .flex-row{flex-direction:column}
+}

@@ -1,0 +1,16 @@
+/* Grid challenge: 4 columns, then 2, then 1 */
+.grid-board{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem;margin-top:1.5rem}
+.tile{padding:1.4rem;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);box-shadow:var(--shadow);transition:border-color .2s ease}
+.tile:hover{border-color:var(--accent)}
+.tile h3{margin-bottom:.4em;color:var(--muted);font-size:.95rem;font-weight:600}
+.tile--wide{grid-column:span 2}
+.value{margin:0;font-size:clamp(1.8rem,4vw,2.4rem);font-weight:700;line-height:1.1}
+.note{margin:.5rem 0 0;color:var(--muted);font-size:.95rem}
+
+@media (max-width:960px){
+  .grid-board{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:560px){
+  .grid-board{grid-template-columns:1fr}
+  .tile--wide{grid-column:auto}
+}

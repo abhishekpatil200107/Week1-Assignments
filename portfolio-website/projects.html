@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Abhishek Patil</title>
+<meta name="description" content="Selected frontend projects by Riya Deshmukh.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">Abhi.dev</a>
+    <nav id="nav" class="nav" aria-label="Main"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html" aria-current="page">Projects</a><a href="contact.html">Contact</a></nav>
+    <button id="theme" class="icon-btn" type="button" aria-label="Toggle dark mode">&#9680;</button>
+    <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+  </div>
+</header>
+<main id="main">
+<section class="section wrap" aria-labelledby="proj-h">
+  <h1 id="proj-h">Projects</h1>
+  <p>A selection of things I've built while learning. Filter by type.</p>
+  <div class="filters" role="group" aria-label="Filter projects">
+    <button type="button" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-filter="app" aria-pressed="false">Web apps</button>
+    <button type="button" data-filter="landing" aria-pressed="false">Landing pages</button>
+    <button type="button" data-filter="lab" aria-pressed="false">Experiments</button>
+  </div>
+  <div class="grid">
+    <article class="card project" data-cat="app">
+      <div class="thumb" aria-hidden="true">Weatherly</div>
+      <h3>Weatherly</h3>
+      <p>A city weather dashboard with a five-day forecast and a unit switch.</p>
+      <p class="tags">HTML &middot; CSS &middot; JavaScript</p>
+      <a href="https://github.com/your-username/weatherly">View code</a>
+    </article>
+    <article class="card project" data-cat="landing">
+      <div class="thumb" aria-hidden="true">Brewhouse</div>
+      <h3>Brewhouse</h3>
+      <p>A responsive landing page for a neighbourhood coffee shop with menu cards and a booking form.</p>
+      <p class="tags">HTML &middot; CSS</p>
+      <a href="https://github.com/your-username/brewhouse">View code</a>
+    </article>
+    <article class="card project" data-cat="app">
+      <div class="thumb" aria-hidden="true">TaskTide</div>
+      <h3>TaskTide</h3>
+      <p>A to-do app with categories and tasks saved between visits.</p>
+      <p class="tags">HTML &middot; CSS &middot; JavaScript</p>
+      <a href="https://github.com/your-username/tasktide">View code</a>
+    </article>
+    <article class="card project" data-cat="lab">
+      <div class="thumb" aria-hidden="true">Grid Gallery</div>
+      <h3>Grid Gallery</h3>
+      <p>A CSS Grid photo layout that reflows from four columns to one on small screens.</p>
+      <p class="tags">HTML &middot; CSS Grid</p>
+      <a href="https://github.com/your-username/grid-gallery">View code</a>
+    </article>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap foot">
+    <p>&copy; 2026 Abhishek Patil</p>
+    <nav aria-label="Footer"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a></nav>
+    <p><a href="https://github.com/your-username">GitHub</a> &middot; <a href="https://linkedin.com/in/your-username">LinkedIn</a></p>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

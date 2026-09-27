@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Challenge | Flexbox, Grid and Animation</title>
+<meta name="description" content="Three CSS mini-exercises: a Flexbox card row, a CSS Grid dashboard and subtle animations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/flexbox.css">
+<link rel="stylesheet" href="css/grid.css">
+<link rel="stylesheet" href="css/animation.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#top">CSS Challenge</a>
+    <nav class="nav" aria-label="Sections">
+      <a class="link-anim" href="#flexbox">Flexbox</a>
+      <a class="link-anim" href="#grid">Grid</a>
+      <a class="link-anim" href="#animation">Animation</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section id="top" class="wrap intro">
+  <h1>Layout and motion, three ways</h1>
+  <p>Three focused exercises: a Flexbox card row, a CSS Grid dashboard and a set of subtle animations.</p>
+</section>
+
+<section id="flexbox" class="section wrap" aria-labelledby="flex-h">
+  <h2 id="flex-h">1. Flexbox: feature cards</h2>
+  <p class="desc">Three cards sit in a row on desktop and stack below 700px. Card heights match, and each link stays at the bottom.</p>
+  <div class="flex-row">
+    <article class="flex-card">
+      <span class="badge">01</span>
+      <h3>Plan</h3>
+      <p>Break the work into small steps so every task has a clear owner and a due date.</p>
+      <a class="link-anim" href="#flexbox">Learn more</a>
+    </article>
+    <article class="flex-card">
+      <span class="badge">02</span>
+      <h3>Build</h3>
+      <p>Write clean, semantic markup first, then layer on styling and behaviour once the structure is solid.</p>
+      <a class="link-anim" href="#flexbox">Learn more</a>
+    </article>
+    <article class="flex-card">
+      <span class="badge">03</span>
+      <h3>Ship</h3>
+      <p>Test on real screens, fix what breaks and publish with a README others can follow.</p>
+      <a class="link-anim" href="#flexbox">Learn more</a>
+    </article>
+  </div>
+</section>
+
+<section id="grid" class="section wrap" aria-labelledby="grid-h">
+  <h2 id="grid-h">2. CSS Grid: dashboard</h2>
+  <p class="desc">Seven tiles on a four-column grid that reflows to two columns on tablet and one on mobile. The first tile spans two columns. Figures are sample data.</p>
+  <div class="grid-board">
+    <article class="tile tile--wide"><h3>Weekly visits</h3><p class="value">12,480</p><p class="note">Up 8% on last week</p></article>
+    <article class="tile"><h3>New signups</h3><p class="value">342</p><p class="note">Up 3%</p></article>
+    <article class="tile"><h3>Avg. session</h3><p class="value">3m 12s</p><p class="note">Steady</p></article>
+    <article class="tile"><h3>Bounce rate</h3><p class="value">38%</p><p class="note">Down 2%</p></article>
+    <article class="tile"><h3>Support tickets</h3><p class="value">27</p><p class="note">5 open</p></article>
+    <article class="tile"><h3>Page speed</h3><p class="value">94</p><p class="note">Good</p></article>
+    <article class="tile"><h3>Uptime</h3><p class="value">99.9%</p><p class="note">Last 30 days</p></article>
+  </div>
+</section>
+
+<section id="animation" class="section wrap" aria-labelledby="anim-h">
+  <h2 id="anim-h">3. Animation: interaction states</h2>
+  <p class="desc">Four subtle effects built with transitions and keyframes. All respect the reduced-motion setting.</p>
+  <div class="demo-grid">
+    <article class="demo"><h3>Animated underline</h3><p><a class="link-anim" href="#animation">Hover or focus this link</a></p></article>
+    <article class="demo"><h3>Button hover</h3><p><button class="btn-sweep" type="button">Hover me</button></p></article>
+    <article class="demo"><h3>Loading spinner</h3><p class="spin-row"><span class="spinner" role="status" aria-label="Loading"></span><span>Loading</span></p></article>
+    <article class="demo">
+      <h3>Fade-in reveal</h3>
+      <div class="fade-group play"><span class="fade-item">One</span><span class="fade-item">Two</span><span class="fade-item">Three</span></div>
+      <button class="btn-sweep" id="replay" type="button">Replay</button>
+    </article>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer"><div class="wrap"><p>&copy; 2026 CSS Challenge. Week 1 assignment.</p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
