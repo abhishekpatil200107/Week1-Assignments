@@ -28,15 +28,17 @@ css-challenge/
 Open `index.html` in a browser, or use VS Code Live Server.
 
 ## Live link
-<add your deployment link here>
+famous-raindrop-98d994.netlify.app
 
 ## Screenshots
 | File | View |
 |---|---|
-| `screenshots/flex-desktop.png` | Flexbox row, desktop |
-| `screenshots/flex-mobile.png` | Flexbox stack, mobile |
-| `screenshots/grid-layout.png` | Grid dashboard |
-| `screenshots/animation-demo.png` | Animation section |
+| `screenshots/Task 3/Flexbox-Desktop.png` | Flexbox row, desktop |
+| `screenshots/Task 3/Flexbox-Mobile1.png` | Flexbox stack, mobile |
+| `screenshots/Task 3/Flexbox-Mobile2.png` | Flexbox stack, mobile |
+| `screenshots/Task 3/CSS-Grip.png` | Grid dashboard |
+| `screenshots/Task 3/Animation-Desktop.png` | Animation section |
 
 ## Author
-<your name, GitHub and LinkedIn>
+Abhishek Patil, GitHub: https://github.com/abhishekpatil200107 and LinkedIn: www.linkedin.com/in/abhishekpatil0072001
+

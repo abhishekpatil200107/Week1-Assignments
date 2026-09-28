@@ -27,18 +27,21 @@ business-landing-page/
 Open `index.html` in a browser, or use VS Code Live Server.
 
 ## Live link
-<add your deployment link here>
+musical-mochi-c30549.netlify.app
 
 ## Screenshots
 | File | View |
 |---|---|
-| `screenshots/landing-desktop.png` | Full page, desktop |
-| `screenshots/landing-hero-mobile.png` | Hero, mobile |
-| `screenshots/landing-services.png` | Services section |
-| `screenshots/landing-contact-form.png` | Contact form |
+| `screenshots/Task 2/Home-Desktop1.png` | Full page, desktop |
+| `screenshots/Task 2/Hero-Section1.png` | Hero, mobile |
+| `screenshots/Task 2/Hero-Section2.png` | Hero, mobile |
+| `screenshots/Task 2/Services-Desktop.png` | Services section |
+| `screenshots/Task 2/Contact-Desktop.png` | Contact form |
+| `screenshots/Task 2/About-Desktop.png` | About section |
+
 
 ## Notes
 Business name, testimonials, phone and email are fictional sample content. The form is a front-end demo; connect Formspree or Netlify Forms to receive real requests.
 
 ## Author
-<your name, GitHub and LinkedIn>
+Abhishek Patil, GitHub: https://github.com/abhishekpatil200107 and LinkedIn: www.linkedin.com/in/abhishekpatil0072001

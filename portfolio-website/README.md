@@ -37,18 +37,18 @@ candid-cuchufli-f84801.netlify.app
 ## Screenshots
 | File | View |
 |---|---|
-| `Screenshots/Task 1/Home-Desktop1.png` | Home, desktop |
-  `Screenshots/Task 1/Home-Desktop2.png` | Home, desktop |
-| `screenshots/Task 1/Home-Mobile1.png` | Home, mobile |
-  `screenshots/Task 1/Home-Mobile2.png` | Home, mobile |
-  `screenshots/Task 1/Home-Mobile3.png` | Home, mobile |
+| `screenshots/Task 1/Home-Desktop1.png`    | Home, desktop |
+| `screenshots/Task 1/Home-Desktop2.png`    | Home, desktop |
+| `screenshots/Task 1/Home-Mobile1.png`     | Home, mobile |
+| `screenshots/Task 1/Home-Mobile2.png`     | Home, mobile |
+| `screenshots/Task 1/Home-Mobile3.png`     | Home, mobile |
 | `screenshots/Task 1/Project-Desktop1.png` | Projects section |
-  `screenshots/Task 1/Project-Desktop2.png` | Projects section |
-  `screenshots/Task 1/Project-Desktop3.png` | Projects section |
-  `screenshots/Task 1/Project-Desktop4.png` | Projects section |
-| `screenshots/Task 1/Contact-Desktop.png` | Contact form |
-  `screenshots/Task 1/About-Desktop1.png` | About section |
-  `screenshots/Task 1/About-Desktop2.png` | About section |
+| `screenshots/Task 1/Project-Desktop2.png` | Projects section |
+| `screenshots/Task 1/Project-Desktop3.png` | Projects section |
+| `screenshots/Task 1/Project-Desktop4.png` | Projects section |
+| `screenshots/Task 1/Contact-Desktop.png`  | Contact form |
+| `screenshots/Task 1/About-Desktop1.png`   | About section |
+| `screenshots/Task 1/About-Desktop2.png`   | About section |
 
 ## Customising
 Replace the name, `your-username` links and `abhi@example.com` with your own details. The contact form is a front-end demo; connect it to Formspree or Netlify Forms to receive messages.
