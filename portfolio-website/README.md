@@ -32,26 +32,45 @@ portfolio-website/
 Open `index.html` in a browser, or serve the folder with `npx serve` or the VS Code Live Server extension.
 
 ## Live link
-candid-cuchufli-f84801.netlify.app
+https://candid-cuchufli-f84801.netlify.app
 
 ## Screenshots
-| File | View |
-|---|---|
-| `screenshots/Task 1/Home-Desktop1.png`    | Home, desktop |
-| `screenshots/Task 1/Home-Desktop2.png`    | Home, desktop |
-| `screenshots/Task 1/Home-Mobile1.png`     | Home, mobile |
-| `screenshots/Task 1/Home-Mobile2.png`     | Home, mobile |
-| `screenshots/Task 1/Home-Mobile3.png`     | Home, mobile |
-| `screenshots/Task 1/Project-Desktop1.png` | Projects section |
-| `screenshots/Task 1/Project-Desktop2.png` | Projects section |
-| `screenshots/Task 1/Project-Desktop3.png` | Projects section |
-| `screenshots/Task 1/Project-Desktop4.png` | Projects section |
-| `screenshots/Task 1/Contact-Desktop.png`  | Contact form |
-| `screenshots/Task 1/About-Desktop1.png`   | About section |
-| `screenshots/Task 1/About-Desktop2.png`   | About section |
 
-## Customising
-Replace the name, `your-username` links and `abhi@example.com` with your own details. The contact form is a front-end demo; connect it to Formspree or Netlify Forms to receive messages.
+**About section**  
+![About section](screenshots/Task%201/About-Desktop1.png)
+
+**About section**  
+![About section](screenshots/Task%201/About-Desktop2.png)
+
+**Contact form**  
+![Contact form](screenshots/Task%201/Contact-Desktop.png)
+
+**Home, desktop**  
+![Home, desktop](screenshots/Task%201/Home-Desktop1.png)
+
+**Home, desktop**  
+![Home, desktop](screenshots/Task%201/Home-Desktop2.png)
+
+**Home, mobile**  
+![Home, mobile](screenshots/Task%201/Home-Mobile1.png)
+
+**Home, mobile**  
+![Home, mobile](screenshots/Task%201/Home-Mobile2.png)
+
+**Home, mobile**  
+![Home, mobile](screenshots/Task%201/Home-Mobile3.png)
+
+**Projects section**  
+![Projects section](screenshots/Task%201/Project-Desktop1.png)
+
+**Projects section**  
+![Projects section](screenshots/Task%201/Project-Desktop2.png)
+
+**Projects section**  
+![Projects section](screenshots/Task%201/Project-Desktop3.png)
+
+**Projects section**  
+![Projects section](screenshots/Task%201/Project-Desktop4.png)
 
 ## Author
-  Abhishek Patil, GitHub: https://github.com/abhishekpatil200107 and LinkedIn: www.linkedin.com/in/abhishekpatil0072001
+Abhishek Patil · [GitHub](https://github.com/abhishekpatil200107) · [LinkedIn](https://www.linkedin.com/in/abhishekpatil0072001)

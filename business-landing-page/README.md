@@ -27,21 +27,30 @@ business-landing-page/
 Open `index.html` in a browser, or use VS Code Live Server.
 
 ## Live link
-musical-mochi-c30549.netlify.app
+https://musical-mochi-c30549.netlify.app
 
 ## Screenshots
-| File | View |
-|---|---|
-| `screenshots/Task 2/Home-Desktop1.png` | Full page, desktop |
-| `screenshots/Task 2/Hero-Section1.png` | Hero, mobile |
-| `screenshots/Task 2/Hero-Section2.png` | Hero, mobile |
-| `screenshots/Task 2/Services-Desktop.png` | Services section |
-| `screenshots/Task 2/Contact-Desktop.png` | Contact form |
-| `screenshots/Task 2/About-Desktop.png` | About section |
 
+**About section**  
+![About section](screenshots/Task%202/About-Desktop.png)
+
+**Contact form**  
+![Contact form](screenshots/Task%202/Contact-Desktop.png)
+
+**Hero section**  
+![Hero section](screenshots/Task%202/Hero-Section1.png)
+
+**Hero section**  
+![Hero section](screenshots/Task%202/Hero-Section2.png)
+
+**Home, desktop**  
+![Home, desktop](screenshots/Task%202/Home-Desktop1.png)
+
+**Services section**  
+![Services section](screenshots/Task%202/Services-Desktop.png)
 
 ## Notes
 Business name, testimonials, phone and email are fictional sample content. The form is a front-end demo; connect Formspree or Netlify Forms to receive real requests.
 
 ## Author
-Abhishek Patil, GitHub: https://github.com/abhishekpatil200107 and LinkedIn: www.linkedin.com/in/abhishekpatil0072001
+Abhishek Patil · [GitHub](https://github.com/abhishekpatil200107) · [LinkedIn](https://www.linkedin.com/in/abhishekpatil0072001)
